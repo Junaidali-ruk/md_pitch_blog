@@ -12,12 +12,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "*", // Change to a string, wildcard for any host
+        hostname: "*", 
       },
     ],
   },
   experimental: {
-    ppr: true, // Set as boolean
+    ppr: true,  
     after: true,
   },
   devIndicators: {
